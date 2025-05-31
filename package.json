@@ -10,14 +10,35 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/stack": "^7.3.2",
+    "@supabase/supabase-js": "^2.49.8",
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
     "expo": "~53.0.9",
     "expo-status-bar": "~2.2.3",
+    "path-browserify": "^1.0.1",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "react-native-crypto": "^2.2.0",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-safe-area-context": "^5.4.1",
+    "react-native-screens": "^4.11.1",
+    "react-native-tcp-socket": "^6.3.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "readable-stream": "^4.7.0",
+    "stream-http": "^3.2.0",
+    "tls-browserify": "^0.2.2",
+    "util": "^0.12.5",
+    "vm-browserify": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~19.0.10",
+    "@types/react-native-dotenv": "^0.2.2",
     "typescript": "~5.8.3"
   },
   "private": true
